@@ -1,1 +1,28 @@
-/* write your override styles here */
+/* New styles to override existing graffiti tag styles */
+#wall .tag-1 {
+    display: none;
+}
+
+#wall .tag-2 {
+    display: none;
+}
+
+#wall .tag-3 {
+    display: none;
+}
+
+/* Override existing graffiti tag styles to hide them */
+#wall .tag-1,
+#wall #tag-2,
+#wall #tag-3,
+#wall #tag-4,
+#wall #tag-5,
+#wall #tag-6,
+#wall #tag-7 {
+    display: none;
+}
+
+/* Ensure specificity to override existing styles */
+/* You might not need to change these selectors if they already have sufficient specificity */
+
+
